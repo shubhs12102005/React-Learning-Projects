@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    height: 400px;
+    width: 400px;
+    border: 1.5px solid black;
+    border-radius: 7px;
+    background-color: rgb(209, 141, 209);   
+    display: flex; /* Add this to make .container a flexbox */
+    flex-direction: column; /* Align child elements vertically */
+    align-items: center; /* Center the children horizontally */
+    justify-content: center; /* Center the children vertically */
+  }
+  
+  #heading {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .inputclass {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+  }
+  
+  .label {
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    margin-right: 10px;
+  }
+  
+  .input {
+    padding: 5px;
+    width: 90%;
+    border-radius: 5px;
+    border: 2px solid orange;
+    outline: none;
+  }
+  
+  #btn{
+    padding: 10px 15px;
+    outline: none;
+    background-color: aquamarine;
+    border: 2px solid orange;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+
+  #bmiheading{
+    font-size: 25px;
+    margin-top: 10px;
+    color: #fff;
+  }
+
+  #para{
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+  }
+  

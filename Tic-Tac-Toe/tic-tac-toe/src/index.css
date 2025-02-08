@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box {
+    width: 30px;
+    height: 30px;
+    border-color: black;
+}
