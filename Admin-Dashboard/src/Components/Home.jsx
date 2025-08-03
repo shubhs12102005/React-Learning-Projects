@@ -51,7 +51,7 @@ function Home() {
           pv: 4300,
           amt: 2100,
         },
-      ];
+    ];
      
 
   return (
